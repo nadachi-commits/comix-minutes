@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>議事録：長沼商事株式会社 2026-04-08</title>
+<style>
+  body { font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif; max-width: 860px; margin: 0 auto; padding: 24px; color: #222; line-height: 1.7; }
+  .main-heading { font-size: 1.5em; font-weight: bold; color: #1a4b8c; border-bottom: 3px solid #1a4b8c; padding-bottom: 8px; margin-bottom: 20px; }
+  .meta { color: #555; font-size: 0.95em; margin-bottom: 20px; }
+  .section { margin-top: 28px; }
+  .section-heading { font-size: 1.15em; font-weight: bold; color: #1a4b8c; border-left: 4px solid #1a4b8c; padding-left: 10px; margin-bottom: 12px; }
+  .subsection-heading { font-weight: bold; margin-top: 14px; margin-bottom: 6px; color: #333; }
+  ul { padding-left: 1.4em; margin: 6px 0; }
+  li { margin-bottom: 4px; }
+  .task-section { background: #eef4ff; border-radius: 6px; padding: 14px 18px; margin-top: 8px; }
+  .highlight { background: #fff8e1; border-left: 4px solid #f0a500; padding: 10px 14px; border-radius: 4px; margin-top: 10px; }
+  .footer { margin-top: 40px; color: #888; font-size: 0.85em; border-top: 1px solid #ddd; padding-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="main-heading">📋 議事録：生成AI活用支援ご案内／長沼商事株式会社</div>
+<div class="meta">
+  日時：2026年4月8日（水）10:30〜11:13（43分）<br>
+  参加者：株式会社コミクス 安達成生 ／ 長沼商事株式会社 内山弘之様（ネットワーク営業部）、寺岡様（耳のみ参加）
+</div>
+
+<div class="section">
+  <div class="section-heading">⚡ サマリー</div>
+  <ul>
+    <li>ネットワークエンジニアが主体の営業部門で、内山様がプライベートでClaude Codeを活用済み。業務導入を検討中。</li>
+    <li>関心の主軸は「適切なプラン選定」と「セキュリティ体制の構築」。特に従業員のオペミスによるリスク（GitHubのpublic公開等）の防止方法を知りたい。</li>
+    <li>管理者が一元的にNG行為を制御できる仕組みや、大手企業の実際の導入体制に関する情報を求めている。</li>
+    <li>コミクスよりベーシックプラン（月額200,000円）を提案。セキュリティの詳細情報を調査・送付後に次回商談予定。</li>
+    <li>次回はセキュリティ対応経験のある専門家を同席させる方向で調整予定。</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-heading">📋 ヒアリング内容</div>
+
+  <div class="subsection-heading">① 会社・部門概要</div>
+  <ul>
+    <li>ネットワーク営業部はSEが半数以上。シスコ等ネットワーク機器の導入・設定・開発受託が主業務。大手キャリア向け案件が中心。</li>
+    <li>内山様はネットワークエンジニアだが、プライベートでClaude Code（個人Maxプラン）を使用しアプリ制作等を実施。</li>
+  </ul>
+
+  <div class="subsection-heading">② 現状のAI利用状況</div>
+  <ul>
+    <li>社内でのAI導入はゼロ。VBA等は各自が手動で対応。</li>
+    <li>バックオフィス業務（発注対応等の事務作業）の負荷が大きく、AI活用による負荷低減を検討中。</li>
+  </ul>
+
+  <div class="subsection-heading">③ 主な課題・懸念</div>
+  <ul>
+    <li>法人利用にはチーム・エンタープライズプランが必要と認識。無料・個人プランでの法人利用は不適切と理解済み。</li>
+    <li>最大の懸念はAIによるデータ流出よりも、従業員のオペミスによるリスク（例：GitHubリポジトリをpublicにしてしまう等）。</li>
+    <li>管理者が一元的にNG行為を制御できる設定・仕組みがあるかを確認したい。</li>
+    <li>楽天等の大手企業がどのような体制でClaude Codeを導入しているかの情報を求めている。</li>
+    <li>官公庁系顧客との取引もあり、顧客情報漏洩のリスクは特に慎重に対処する必要がある。</li>
+  </ul>
+
+  <div class="subsection-heading">④ 想定ユースケース</div>
+  <ul>
+    <li>提案書・報告書の作成、メール草案の生成</li>
+    <li>構築関連文書の構成案作成</li>
+    <li>業務自動化の仕組み構築（将来的には内製化も志向）</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-heading">📋 ご提案内容</div>
+
+  <div class="subsection-heading">セキュリティ対策</div>
+  <ul>
+    <li>チーム・エンタープライズプランであれば学習オプションがデフォルトでオフ、管理者一元管理も可能。</li>
+    <li>エンタープライズプランではゼロデータリテンション交渉・SOC2取得・通信暗号化等の対応あり。</li>
+    <li>Claudeのパーミッション設定でNG動作（外部デプロイ等）の制限が可能。</li>
+    <li>詳細な設定方法・大手企業の導入事例については安達側で調査の上、次回共有。</li>
+  </ul>
+
+  <div class="subsection-heading">弊社のご支援スタイル</div>
+  <ul>
+    <li>ベーシックプラン（共同実施型）：月額200,000円、4名まで、専門家が月10時間伴走。</li>
+    <li>セキュリティに知見のある専門講師のアサインが可能。</li>
+    <li>業務棚卸し・ヒアリング → 優先順位決め → 定期レクチャーの流れ。</li>
+  </ul>
+</div>
+
+<div class="section task-section">
+  <div class="section-heading">🎯 ネクストアクション</div>
+  <div class="subsection-heading">コミクス（安達）</div>
+  <ul>
+    <li>Claudeの各プラン（チーム・エンタープライズ）のセキュリティ保証・契約内容に関する詳細情報を調査・メールで共有</li>
+    <li>本日の資料（Manusスライド・サービスご案内）を送付</li>
+    <li>セキュリティ対応経験のある専門家との次回商談の設定を調整</li>
+  </ul>
+  <div class="subsection-heading">長沼商事（内山様）</div>
+  <ul>
+    <li>安達からの資料を確認の上、次のアクションを判断</li>
+  </ul>
+</div>
+
+<div class="section">
+  <div class="section-heading">📅 未確定事項</div>
+  <ul>
+    <li>社内導入のGoサインを出せる権限者の有無</li>
+    <li>推進チームの構成・人選</li>
+    <li>契約プランの確定（エンタープライズかチームか）</li>
+    <li>官公庁向け案件データの取り扱い範囲</li>
+  </ul>
+</div>
+
+<div class="footer">作成：株式会社コミクス 安達成生 ／ 2026-04-08 自動生成</div>
+</body>
+</html>
